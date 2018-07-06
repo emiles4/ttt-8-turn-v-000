@@ -1,23 +1,4 @@
-Skip to content
-Features
-Business
-Explore
-Marketplace
-Pricing
 
-Search
-
-Sign in or Sign up
-1 0 2 alexisadorn/Tic-Tac-Toe-Ruby
- Code  Issues 0  Pull requests 0  Projects 0  Insights
-Join GitHub today
-GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.
-
-Tic-Tac-Toe-Ruby/ttt-8-turn-v-000/lib/turn.rb
-8f439e7  on Mar 28, 2017
-@alexisadorn alexisadorn Tic Tac Toe labs
-
-60 lines (53 sloc)  1.42 KB
 #displays a tic tac toe board, with board spaces passed as an array
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
